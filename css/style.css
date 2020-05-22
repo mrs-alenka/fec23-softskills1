@@ -7,8 +7,9 @@
 header {
   display: block;
   height: 800px;
-  background-color: #3f0e40;
-  margin-bottom: 70px;
+  /*background-color: #3f0e40;*/
+  background-color: #00a27e;
+  /*margin-bottom: 70px;*/
 }
 
 .container {
@@ -30,7 +31,7 @@ header {
   font-size: 15px;
 }
 .mein-nav-menu {
-  margin-left: 35px;
+  margin-left: 20px;
   list-style: none;
 }
 
@@ -64,11 +65,14 @@ h1 {
 .gibkoe-s {
   font-size: 25px;
   padding-left: 150px;
-  color: #ab47bc;
+  /*color: #ab47bc;*/
+  /* color: #01785e;*/
+  color: #012a6a;
 }
 
 .soft-skills-1 {
   color: #ffff00;
+
   font-size: 15px;
   margin-bottom: 140px;
 }
@@ -92,38 +96,56 @@ h1 {
   box-shadow: 17px 19px 38px -18px rgba(0, 0, 0, 0.38);
 }
 
-.key-concepts {
-  background-color: #eceff1;
-  height: 800px;
+/*team*/
+.from-the-team {
+  font-size: 21px;
+  margin-bottom: 30px;
 }
 
-.key-concepts-h2 {
-  text-align: center;
-  color: #263238;
-}
-
-.growth {
-  float: right;
-}
-
-.fixed {
-  float: left;
-}
-
-.key-concepts-main {
+.team-img {
+  width: 450px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+}
+
+.team-p {
+  font-size: 18px;
+  color: #000;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
+  line-height: 27px;
 }
 
-.key-concepts-text {
-  width: 500px;
-  box-sizing: content-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  color: #263238;
-  font-size: 20px;
+.team {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+/*footer*/
+.footer {
+  height: 120px;
+  background: #263238; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+  font-size: 15px;
+}
+
+.logo-footer {
+  float: left;
+  padding-top: 40px;
+}
+
+.copyright {
+  padding-top: 50px;
+  margin-left: 450px;
+}
+
+.logo-footer-goit {
+  float: right;
+  height: 40px;
+  width: 150px;
+  padding-top: 40px;
 }
