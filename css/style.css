@@ -1,6 +1,9 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,14 +11,12 @@ header {
   display: block;
   height: 800px;
   background-color: #3f0e40;
-  margin-bottom: 70px;
 }
 
-.container {
+.container-main {
   width: 1070px;
   margin: 0 auto;
 }
-
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -45,8 +46,8 @@ header {
 }
 
 .logo2 {
-  width: 80px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   padding-top: 20px;
 }
 
@@ -97,9 +98,14 @@ h1 {
   height: 800px;
 }
 
-.key-concepts-h2 {
+h2 {
   text-align: center;
   color: #263238;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+p {
+  margin-bottom: 15px;
 }
 
 .growth {
@@ -116,6 +122,8 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: #f6e8f9;
 }
 
 .key-concepts-text {
@@ -126,4 +134,158 @@ h1 {
   padding-top: 20px;
   color: #263238;
   font-size: 20px;
+}
+.container-about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 1070px;
+  margin: 0 auto;
+}
+.text-subject {
+  display: flex;
+}
+.superman-img {
+  margin-right: 50px;
+  margin-top: 15px;
+  width: 250px;
+  height: 300px;
+}
+.subject-book {
+  color: #263238;
+  font-size: 20px;
+  padding-top: 15px;
+}
+.education-container {
+  padding-top: 30px;
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+}
+.about-education {
+  color: #263238;
+  font-size: 20px;
+  padding-top: 35px;
+}
+.education-img {
+  width: 400px;
+  height: 350px;
+  margin-top: -45px;
+}
+.family-section {
+  display: flex;
+  padding-top: -10px;
+}
+.family-img {
+  width: 300px;
+  height: 300px;
+  margin-top: -25px;
+  padding-right: 15px;
+}
+.about-family {
+  color: #263238;
+  font-size: 20px;
+}
+.business-section {
+  display: flex;
+  padding-top: 50px;
+}
+.business-img {
+  width: 350px;
+  height: 310px;
+  margin-top: -20px;
+}
+.about-business {
+  color: #263238;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.section-conclusion {
+  background: radial-gradient(ellipse, #ffe6f1, #ecb5f5);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.setting {
+  color: #9b5da6;
+}
+.conclusion {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h3 {
+  text-align: center;
+}
+.motivation {
+  display: flex;
+}
+.one-motivation {
+  width: 280px;
+  height: 265px;
+  margin-right: -10px;
+  margin-bottom: -29px;
+}
+.two-motivation {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  margin-top: 37px;
+  border-radius: 100px;
+  border: 3px solid #3f0e40;
+  box-shadow: 0 0 7px #666;
+}
+.third-motivation {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  margin-top: 37px;
+  border-radius: 100px;
+  border: 3px solid #3f0e40;
+  box-shadow: 0 0 7px #666;
+}
+.four-motivation {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  margin-top: 37px;
+  border-radius: 100px;
+  border: 3px solid #3f0e40;
+  box-shadow: 0 0 7px #666;
+}
+.five-motivation {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  margin-top: 37px;
+  border-radius: 100px;
+  border: 3px solid #3f0e40;
+  box-shadow: 0 0 7px #666;
+}
+.motive {
+  color: #d91d65;
+  margin-bottom: 10px;
+}
+.quotes {
+  display: block;
+  padding-top: 30px;
+  width: 1070px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+.quote-book {
+  font-size: 18px;
+}
+.lamp-idea {
+  width: 70px;
+  height: 90px;
+  padding-right: 20px;
+}
+.section-quotes {
+  display: flex;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.style-center {
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
