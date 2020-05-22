@@ -109,9 +109,9 @@ p {
 .key-concepts-main {
   background-color: #f6e8f9;
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .growth-fixed {
   margin-left: auto;
@@ -140,7 +140,7 @@ p {
 }
 
 .container-about {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   width: 1070px;
   margin: 0 auto;
@@ -211,6 +211,7 @@ p {
 }
 .setting {
   color: #9b5da6;
+  margin-top: 30px;
 }
 .conclusion {
   font-size: 18px;
@@ -268,10 +269,11 @@ h3 {
 .motive {
   color: #d91d65;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 .quotes {
   display: block;
-  padding-top: 30px;
+  padding-top: 40px;
   width: 1070px;
   margin: 0 auto;
   padding-bottom: 25px;
@@ -320,7 +322,7 @@ h3 {
 
 .team {
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 /*footer*/
@@ -344,7 +346,8 @@ h3 {
 
 .logo-footer-goit {
   float: right;
-  height: 40px;
-  width: 150px;
-  padding-top: 40px;
+  height: 45px;
+  width: 120px;
+  padding-top: 15px;
+  margin-top: 27px;
 }
